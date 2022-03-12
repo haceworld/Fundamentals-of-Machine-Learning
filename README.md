@@ -1,20 +1,16 @@
-# Fundamentals-of-Artificial-Intelligence-
-About Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence. To understand How Artificial Intelligence actually works, one needs to deep dive into the various sub-domains of Artificial Intelligence and understand how those domains could be applied to the various fields of the industry.
+# Fundamentals-of-Machine-Learning
+Machine learning is a subset of artificial intelligence (AI) which focuses on the use of data and models to imitate the way that humans learn, gradually improving its accuracy performance.
 
-# Machine Learning
-ML teaches a machine how to make inferences and decisions based on past experience. It identifies patterns, analyses past data to infer the meaning of these data points to reach a possible conclusion without having to involve human experience. This automation to reach conclusions by evaluating data, saves a human time for businesses and helps them make a better decision.
+Machine Learning (ML) teaches a machine how to make inferences and decisions based on past experience. It identifies patterns, analyses past data to infer the meaning of these data points to reach a possible conclusion without having to involve human experience. This automation to reach conclusions by evaluating data, saves a human time for businesses and helps them make a better decision.
 
-# Deep Learning
-Deep Learning is a ML technique. It teaches a machine to process inputs through layers in order to classify, infer and predict the outcome.
+# How machine learning works
+The learning system of a machine learning algorithm can be broken into three main parts.
 
-# Neural Networks
-Neural Networks work on the similar principles as of Human Neural cells. They are a series of algorithms that captures the relationship between various underying variabes and processes the data as a human brain does.
+## A Decision Process:
+In general, machine learning algorithms are used to make a prediction or classification. Based on some input data, which can be labelled or unlabeled, your algorithm will produce an estimate about a pattern in the data.
 
-# Natural Language Processingc
-NLP is a science of reading, understanding, interpreting a language by a machine. Once a machine understands what the user intends to communicate, it responds accordingly.
+## An Error Function:
+An error function serves to evaluate the prediction of the model. If there are known examples, an error function can make a comparison to assess the accuracy of the model.
 
-# Computer Vision
-Computer vision algorithms tries to understand an image by breaking down an image and studying different parts of the objects. This helps the machine classify and learn from a set of images, to make a better output decision based on previous observations.
-
-# Cognitive Computing
-Cognitive computing algorithms try to mimic a human brain by anaysing text/speech/images/objects in a manner that a human does and tries to give the desired output.
+## A Model Optimization Process:
+If the model can fit better to the data points in the training set, then weights are adjusted to reduce the discrepancy between the known example and the model estimate. The algorithm will repeat this evaluate and optimize process, updating weights autonomously until a threshold of accuracy has been met.
